@@ -1,0 +1,3 @@
+[submodule "recorder/libraries/kicad-symbols"]
+	path = recorder/libraries/kicad-symbols
+	url = https://github.com/KiCad/kicad-symbols.git
