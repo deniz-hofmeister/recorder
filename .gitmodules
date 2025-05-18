@@ -1,3 +1,6 @@
 [submodule "recorder/libraries/kicad-symbols"]
 	path = recorder/libraries/kicad-symbols
 	url = https://gitlab.com/kicad/libraries/kicad-symbols.git
+[submodule "recorder/libraries/kicad-footprints"]
+	path = recorder/libraries/kicad-footprints
+	url = https://github.com/KiCad/kicad-footprints.git
