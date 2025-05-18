@@ -2455,14 +2455,13 @@
 				)
 			)
 		)
-		(property "Footprint" "RGW0020A-IPC_A"
+		(property "Footprint" "Library:RGW0020A-IPC_A"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "TPS7A4700RGWT"
@@ -2503,52 +2502,15 @@
 			)
 		)
 		(symbol "TPS7A4700RGWT_0_1"
-			(polyline
-				(pts
-					(xy 5.08 5.08) (xy 5.08 -45.72)
-				)
+			(rectangle
+				(start 5.08 5.08)
+				(end 35.56 -46.99)
 				(stroke
-					(width 0.2032)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -45.72) (xy 35.56 -45.72)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 35.56 5.08) (xy 5.08 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 35.56 -45.72) (xy 35.56 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin power_in line
