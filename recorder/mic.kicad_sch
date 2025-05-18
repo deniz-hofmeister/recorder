@@ -135,7 +135,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:C_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -398,7 +398,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "recorder:R100"
+		(symbol "recorder:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -416,7 +416,7 @@
 					)
 				)
 			)
-			(property "Value" "100 Ohm"
+			(property "Value" "100"
 				(at 0 0 90)
 				(effects
 					(font
@@ -424,7 +424,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:R_0603_1608Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -469,7 +469,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R100_0_1"
+			(symbol "R_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -482,7 +482,7 @@
 					)
 				)
 			)
-			(symbol "R100_1_1"
+			(symbol "R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -769,7 +769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "recorder:R100")
+		(lib_id "recorder:R")
 		(at 125.73 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -786,7 +786,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100"
 			(at 125.73 76.2 90)
 			(effects
 				(font
@@ -794,7 +794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:R_0603_1608Metric"
 			(at 125.73 78.232 90)
 			(effects
 				(font
@@ -986,7 +986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_0603_1608Metric"
 			(at 123.19 87.63 0)
 			(effects
 				(font

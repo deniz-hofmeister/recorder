@@ -713,7 +713,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:C_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -827,6 +827,7 @@
 		(symbol "recorder:GPIO_Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -847,7 +848,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:PinHeader_2x20_P2.54mm_Vertical"
 				(at -5.08 0 0)
 				(effects
 					(font
@@ -4273,7 +4274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_0603_1608Metric"
 			(at 77.47 104.14 0)
 			(effects
 				(font
@@ -4341,7 +4342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:PinHeader_2x20_P2.54mm_Vertical"
 			(at 214.63 82.55 0)
 			(effects
 				(font
@@ -4523,7 +4524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:R_0603_1608Metric"
 			(at 68.58 99.822 90)
 			(effects
 				(font
@@ -4791,7 +4792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_0603_1608Metric"
 			(at 130.81 139.7 0)
 			(effects
 				(font
@@ -4927,7 +4928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_0603_1608Metric"
 			(at 134.62 73.66 0)
 			(effects
 				(font
@@ -5261,7 +5262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_0603_1608Metric"
 			(at 134.62 82.55 0)
 			(effects
 				(font
@@ -5655,7 +5656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_0603_1608Metric"
 			(at 73.66 139.7 0)
 			(effects
 				(font
@@ -6115,7 +6116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_0603_1608Metric"
 			(at 76.2 180.34 0)
 			(effects
 				(font
