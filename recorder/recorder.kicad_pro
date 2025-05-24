@@ -187,8 +187,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.2
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -542,8 +541,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "/CLK1"
+        "netclass": "Clk",
+        "pattern": "/CLK"
+      },
+      {
+        "netclass": "Clk",
+        "pattern": "/DAT"
       }
     ]
   },
