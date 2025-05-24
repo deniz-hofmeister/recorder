@@ -514,13 +514,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "clearance": 1.0,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
@@ -542,11 +542,15 @@
     "netclass_patterns": [
       {
         "netclass": "Clk",
-        "pattern": "/CLK"
+        "pattern": "/CLK*"
       },
       {
         "netclass": "Clk",
-        "pattern": "/DAT"
+        "pattern": "/DAT*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*"
       }
     ]
   },
