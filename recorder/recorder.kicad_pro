@@ -207,12 +207,12 @@
           "spacing": 1.0
         },
         "single_track_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
-          "single_sided": false,
-          "spacing": 1.0
+          "max_amplitude": 2.0,
+          "min_amplitude": 2.0,
+          "single_sided": true,
+          "spacing": 2.0
         }
       },
       "via_dimensions": [
