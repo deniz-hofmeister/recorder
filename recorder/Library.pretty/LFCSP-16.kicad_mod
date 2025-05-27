@@ -190,6 +190,17 @@
 		(layer "F.Paste")
 		(uuid "627e9450-403e-4a17-be0d-a237f7a71482")
 	)
+	(fp_rect
+		(start -2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b7bcc2ef-a797-4adf-988d-32078e46e7ac")
+	)
 	(fp_line
 		(start -1.55 -1.55)
 		(end 1.55 -1.55)
@@ -345,6 +356,7 @@
 		(size 1.75 1.75)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
+		(clearance 0)
 		(uuid "db4e55f0-2e7b-4719-8537-089b264f56f0")
 	)
 	(embedded_fonts no)
