@@ -106,10 +106,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "recorder:C_Small_1"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "recorder:C_220nF"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -124,15 +121,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Value" "C_Small"
+			(property "Value" "220nF"
 				(at 0.254 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "Library:C_0603_1608Metric"
@@ -162,7 +161,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "MCASJ168BD7475KTCA01"
+			(property "MPN" " 06036C223KAT2A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -198,7 +197,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Small_1_0_1"
+			(symbol "C_220nF_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -224,7 +223,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1_1"
+			(symbol "C_220nF_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -434,7 +433,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "recorder:R"
+		(symbol "recorder:R_100"
 			(pin_numbers
 				(hide yes)
 			)
@@ -496,6 +495,15 @@
 					(hide yes)
 				)
 			)
+			(property "MPN" "CHP0603AFX-1000ELF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -514,7 +522,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_100_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -527,7 +535,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_100_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -841,7 +849,7 @@
 		)
 	)
 	(symbol
-		(lib_id "recorder:R")
+		(lib_id "recorder:R_100")
 		(at 125.73 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -851,7 +859,7 @@
 		(fields_autoplaced yes)
 		(uuid "41270bad-7434-4cb0-84f2-4c96d61985d1")
 		(property "Reference" "R1"
-			(at 125.73 73.66 90)
+			(at 125.73 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +867,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 125.73 76.2 90)
+			(at 125.73 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,6 +903,15 @@
 		)
 		(property "Package" "0603 (1608 Metric)"
 			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CHP0603AFX-1000ELF"
+			(at 125.73 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,7 +971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aa50d05-eed7-4d71-ba10-1f64409678b0")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 123.19 99.06 0)
 			(effects
 				(font
@@ -1004,43 +1021,43 @@
 		(instances
 			(project "recorder"
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/18adc8f8-84a3-4040-80c8-8dec34235bde"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/26e270d8-30bf-4e33-a83d-78a767ff8d6d"
-					(reference "#PWR023")
+					(reference "#PWR23")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/4caf5b05-5142-46d8-9838-1305320703c5"
-					(reference "#PWR025")
+					(reference "#PWR25")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/51cb2aa5-e01a-4a1f-ab57-d2276ebfacb2"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/546ac693-77f8-4549-8910-cfded033dd3d"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/a1c54d07-c0b6-4712-97aa-a1d686bd1270"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/b19ed33f-832d-49a5-9063-a6934bf07b17"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/c45fdb6e-e38a-49e7-9e81-4b95b9080f0a"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "recorder:C_Small_1")
-		(at 123.19 87.63 180)
+		(lib_id "recorder:C_220nF")
+		(at 123.19 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1049,21 +1066,21 @@
 		(fields_autoplaced yes)
 		(uuid "aa1dab39-7ab4-4272-830d-88377901ade2")
 		(property "Reference" "C1"
-			(at 125.73 86.3535 0)
+			(at 125.73 86.3662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 125.73 88.8935 0)
+		(property "Value" "220nF"
+			(at 125.73 88.9062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:C_0603_1608Metric"
@@ -1093,12 +1110,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCASJ168BD7475KTCA01"
+		(property "MPN" " 06036C223KAT2A"
 			(at 123.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
@@ -1107,6 +1125,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1162,7 +1181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df4599da-2c3f-4719-915a-e674e295fbe7")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 139.7 104.14 0)
 			(effects
 				(font
@@ -1212,35 +1231,35 @@
 		(instances
 			(project "recorder"
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/18adc8f8-84a3-4040-80c8-8dec34235bde"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/26e270d8-30bf-4e33-a83d-78a767ff8d6d"
-					(reference "#PWR024")
+					(reference "#PWR24")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/4caf5b05-5142-46d8-9838-1305320703c5"
-					(reference "#PWR027")
+					(reference "#PWR27")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/51cb2aa5-e01a-4a1f-ab57-d2276ebfacb2"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/546ac693-77f8-4549-8910-cfded033dd3d"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/a1c54d07-c0b6-4712-97aa-a1d686bd1270"
-					(reference "#PWR022")
+					(reference "#PWR22")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/b19ed33f-832d-49a5-9063-a6934bf07b17"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2/c45fdb6e-e38a-49e7-9e81-4b95b9080f0a"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)

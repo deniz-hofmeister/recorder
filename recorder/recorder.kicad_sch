@@ -5,130 +5,6 @@
 	(uuid "f8461171-9f32-4945-9984-5de8e21a02d2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -633,10 +509,164 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "recorder:C_Small_1"
-			(pin_numbers
+		(symbol "recorder:C_10uF"
+			(pin_names
+				(offset 0)
 				(hide yes)
 			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "10uF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Library:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10B106MQ8NRNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_10uF_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_10uF_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "recorder:C_1uF"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -651,15 +681,331 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Value" "C_Small"
+			(property "Value" "1uF"
 				(at 0.254 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Library:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "06036C105MAT2A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1uF_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1uF_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "recorder:C_220nF"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "220nF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Library:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" " 06036C223KAT2A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_220nF_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_220nF_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "recorder:C_4700nF"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "4700nF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "Library:C_0603_1608Metric"
@@ -725,7 +1071,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Small_1_0_1"
+			(symbol "C_4700nF_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -751,7 +1097,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1_1"
+			(symbol "C_4700nF_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -2052,6 +2398,290 @@
 						)
 					)
 					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "recorder:R_10000"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10000"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RNCE0603BTE10K0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_10000_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_10000_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "recorder:R_22"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ESR03EZPJ220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_22_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_22_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4299,7 +4929,7 @@
 		(uuid "f550b51d-0ebe-4b81-9fea-4e8d2602775e")
 	)
 	(symbol
-		(lib_id "recorder:C_Small_1")
+		(lib_id "recorder:C_220nF")
 		(at 77.47 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4317,7 +4947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "220nF"
 			(at 80.01 105.4162 0)
 			(effects
 				(font
@@ -4353,12 +4983,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCASJ168BD7475KTCA01"
+		(property "MPN" " 06036C223KAT2A"
 			(at 77.47 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
@@ -4367,6 +4998,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4391,7 +5023,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0c840e92-ea40-43b6-ad12-453cff0909f4")
 		(property "Reference" "J1"
@@ -4594,7 +5226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "recorder:R_22")
 		(at 57.15 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4603,7 +5235,7 @@
 		(dnp no)
 		(uuid "1082ee5b-0a3c-461f-a0d8-04e859f75942")
 		(property "Reference" "R13"
-			(at 57.15 71.12 90)
+			(at 57.15 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +5243,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 57.15 73.66 90)
+			(at 57.15 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,6 +5277,22 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESR03EZPJ220"
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e4df4ed2-c4d5-4c15-b1e9-a04134d7c201")
 		)
@@ -4661,7 +5309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "recorder:R_22")
 		(at 143.51 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4671,7 +5319,7 @@
 		(fields_autoplaced yes)
 		(uuid "13d0dc15-dfdd-4e23-90eb-51dfa55fe540")
 		(property "Reference" "R14"
-			(at 143.51 60.96 90)
+			(at 143.51 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +5327,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 143.51 63.5 90)
+			(at 143.51 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,6 +5361,22 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 143.51 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESR03EZPJ220"
+			(at 143.51 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d63b42dd-ffa0-4475-abb6-5bd76d8cd45b")
 		)
@@ -4729,7 +5393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "recorder:R_10000")
 		(at 68.58 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4746,7 +5410,7 @@
 				)
 			)
 		)
-		(property "Value" "10k0"
+		(property "Value" "10000"
 			(at 68.58 97.79 90)
 			(effects
 				(font
@@ -4781,6 +5445,24 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCE0603BTE10K0"
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "91357c38-0c36-4ecd-a0b2-b23fe19e31d0")
 		)
@@ -4797,7 +5479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "recorder:R_22")
 		(at 63.5 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4807,7 +5489,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e8649c5-b5f4-4ae4-8de7-945b97d99cc4")
 		(property "Reference" "R12"
-			(at 63.5 68.58 90)
+			(at 63.5 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +5497,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 63.5 71.12 90)
+			(at 63.5 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,6 +5531,22 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 63.5 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESR03EZPJ220"
+			(at 63.5 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "386959d1-8ad8-4d9b-8f23-957fef046784")
 		)
@@ -4874,7 +5572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c3f4059-a5dc-427b-ac62-46a54239838a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR38"
 			(at 151.13 76.2 0)
 			(effects
 				(font
@@ -4924,7 +5622,7 @@
 		(instances
 			(project ""
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR038")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -4940,7 +5638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31dccd39-5ebc-4624-a3f4-330060108c2b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 127 186.69 0)
 			(effects
 				(font
@@ -4990,7 +5688,7 @@
 		(instances
 			(project "recorder"
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -5006,7 +5704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37316141-5c20-494c-be5d-14dfdd53c650")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 64.77 166.37 0)
 			(effects
 				(font
@@ -5056,14 +5754,14 @@
 		(instances
 			(project ""
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "recorder:C_Small_1")
+		(lib_id "recorder:C_4700nF")
 		(at 130.81 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5081,7 +5779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "4700nF"
 			(at 133.35 140.9762 0)
 			(effects
 				(font
@@ -5123,6 +5821,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
@@ -5131,6 +5830,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5158,7 +5858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4072f5f0-332a-462e-96e5-d3ab1f369d7e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR39"
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -5208,15 +5908,15 @@
 		(instances
 			(project ""
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR039")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "recorder:C_Small_1")
-		(at 134.62 73.66 0)
+		(lib_id "recorder:C_220nF")
+		(at 134.62 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5225,21 +5925,21 @@
 		(fields_autoplaced yes)
 		(uuid "4356d8cd-6419-4cbb-b998-cfd2a214b613")
 		(property "Reference" "C10"
-			(at 137.16 72.3962 0)
+			(at 137.16 72.3835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 137.16 74.9362 0)
+		(property "Value" "220nF"
+			(at 137.16 74.9235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Library:C_0603_1608Metric"
@@ -5269,12 +5969,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCASJ168BD7475KTCA01"
+		(property "MPN" " 06036C223KAT2A"
 			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
@@ -5283,6 +5984,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5310,7 +6012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e5d5679-4de9-4432-bc01-372f87b95198")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR19"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -5360,7 +6062,7 @@
 		(instances
 			(project "recorder"
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR019")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -5376,7 +6078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cdae5a1-cc8b-45a0-ac0e-72564a2c44c3")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 132.08 96.52 0)
 			(effects
 				(font
@@ -5426,7 +6128,7 @@
 		(instances
 			(project ""
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -5442,7 +6144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e8d30b8-8291-4645-964d-616d4a4442ae")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR18"
 			(at 118.11 30.48 0)
 			(effects
 				(font
@@ -5492,7 +6194,7 @@
 		(instances
 			(project "recorder"
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR018")
+					(reference "#PWR18")
 					(unit 1)
 				)
 			)
@@ -5508,7 +6210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93aa6604-ddda-4d23-a984-d91cfd821121")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 64.77 186.69 0)
 			(effects
 				(font
@@ -5558,14 +6260,14 @@
 		(instances
 			(project ""
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "recorder:C_Small_1")
+		(lib_id "recorder:C_220nF")
 		(at 134.62 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5583,7 +6285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "220nF"
 			(at 137.16 83.8262 0)
 			(effects
 				(font
@@ -5619,12 +6321,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCASJ168BD7475KTCA01"
+		(property "MPN" " 06036C223KAT2A"
 			(at 134.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
@@ -5633,6 +6336,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5660,7 +6364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5925777-505c-4a0c-8e36-1e7e8b4d67c9")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 238.76 69.85 0)
 			(effects
 				(font
@@ -5710,7 +6414,7 @@
 		(instances
 			(project ""
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -5726,7 +6430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b516bdce-aecd-462d-83cd-7189ec859139")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR40"
 			(at 77.47 114.3 0)
 			(effects
 				(font
@@ -5776,7 +6480,7 @@
 		(instances
 			(project ""
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR040")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
@@ -5792,7 +6496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db633327-01a7-4b99-a68b-60c2d46ada44")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR17"
 			(at 67.31 30.48 0)
 			(effects
 				(font
@@ -5842,7 +6546,7 @@
 		(instances
 			(project ""
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR017")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -6002,7 +6706,7 @@
 		)
 	)
 	(symbol
-		(lib_id "recorder:C_Small_1")
+		(lib_id "recorder:C_10uF")
 		(at 73.66 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6056,12 +6760,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCASJ168BD7475KTCA01"
+		(property "MPN" "CL10B106MQ8NRNC"
 			(at 73.66 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
@@ -6070,6 +6775,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6097,7 +6803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecf1045f-afc6-4119-89b0-25ccf897762c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR20"
 			(at 168.91 30.48 0)
 			(effects
 				(font
@@ -6147,7 +6853,7 @@
 		(instances
 			(project "recorder"
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR020")
+					(reference "#PWR20")
 					(unit 1)
 				)
 			)
@@ -6326,7 +7032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5dfea27-d765-44b2-ac20-5a330aae0271")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR21"
 			(at 130.81 148.59 0)
 			(effects
 				(font
@@ -6376,7 +7082,7 @@
 		(instances
 			(project "recorder"
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR021")
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
@@ -6392,7 +7098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e16799-b377-4100-8757-8b8667384e36")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR26"
 			(at 219.71 30.48 0)
 			(effects
 				(font
@@ -6442,15 +7148,15 @@
 		(instances
 			(project "recorder"
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR026")
+					(reference "#PWR26")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "recorder:C_Small_1")
-		(at 76.2 180.34 90)
+		(lib_id "recorder:C_1uF")
+		(at 76.2 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6459,7 +7165,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa13662d-ff45-4333-b26b-951ad3958613")
 		(property "Reference" "C12"
-			(at 76.2063 173.99 90)
+			(at 76.1936 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +7173,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 76.2063 176.53 90)
+			(at 76.1936 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,12 +7207,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCASJ168BD7475KTCA01"
+		(property "MPN" "06036C105MAT2A"
 			(at 76.2 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
@@ -6515,6 +7222,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6542,7 +7250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc041e24-4278-4fdb-9a41-1ba6115ebc06")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR36"
 			(at 60.96 93.98 0)
 			(effects
 				(font
@@ -6592,7 +7300,7 @@
 		(instances
 			(project ""
 				(path "/f8461171-9f32-4945-9984-5de8e21a02d2"
-					(reference "#PWR036")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
