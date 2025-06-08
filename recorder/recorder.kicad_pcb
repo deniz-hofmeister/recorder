@@ -6122,7 +6122,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f8be8cb5-e1b1-45f6-96a5-dfe9ae33b3a0")
+			(uuid "a8142665-9dd5-4d10-b987-7d05662ec818")
 		)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -6132,7 +6132,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "50e3c14d-1f6e-41f7-a0a1-f7f369e2424b")
+			(uuid "fec96fc7-904a-4a72-805e-528c6325163c")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -6142,7 +6142,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8fc005b9-df3a-42b9-bf62-067bd91352d4")
+			(uuid "7f4bad1a-5996-4ca5-b1c3-962e99988ec7")
 		)
 		(fp_line
 			(start 1.48 0.73)
@@ -6152,7 +6152,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "565775b0-0a3c-4035-998d-24281f30f71d")
+			(uuid "37d7649b-5e85-4ab5-8e9d-34f9c1e66eeb")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -6162,7 +6162,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0bbb4b15-4812-437b-bb68-737d85fb7d81")
+			(uuid "f003bece-5740-48d0-9bdf-fe5403cd959d")
 		)
 		(fp_line
 			(start 1.48 -0.73)
@@ -6172,7 +6172,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a670d8f3-ed4b-45e6-8b60-6888bde39506")
+			(uuid "0168c90b-dc79-4007-927e-23e6b028c31b")
 		)
 		(fp_line
 			(start -0.8 0.4125)
@@ -6182,7 +6182,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "319a9e3a-7008-4737-aa43-f8fdf4ae5580")
+			(uuid "fc6a7c69-52f6-4ec0-bcfa-61b61373fddb")
 		)
 		(fp_line
 			(start 0.8 0.4125)
@@ -6192,7 +6192,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "63acbc9f-da41-4134-b3e5-0df2e83d5b7c")
+			(uuid "b34aa4fe-d8f4-42fc-afb6-1ba9eecc958d")
 		)
 		(fp_line
 			(start -0.8 -0.4125)
@@ -6202,7 +6202,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "089ee978-1c41-4219-a1cc-4b682f51bb63")
+			(uuid "d6d60153-0cd1-492f-bf8e-243ac1092b4f")
 		)
 		(fp_line
 			(start 0.8 -0.4125)
@@ -6212,7 +6212,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3708ea83-5923-482f-93cf-5b8b803d2923")
+			(uuid "9163eb90-2c3a-4a02-a402-ecba388ed8ea")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 270)

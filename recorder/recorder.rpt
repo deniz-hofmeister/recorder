@@ -1,4 +1,4 @@
-## Footprint report - date 2025-06-08T13:51:58+0200
+## Footprint report - date 2025-06-08T15:22:29+0200
 ## Created by KiCad version 9.0.1-9.0.1-0~ubuntu22.04.1
 ## Unit = mm, Angle = deg.
 
@@ -12,7 +12,7 @@ $EndBOARD
 $MODULE C1
 footprint Library:C_0603_1608Metric
 attribut smd
-position 151.286625 297.999999  orientation 180.00
+position 151.286625 297.999999  orientation 0.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -31,7 +31,7 @@ $EndMODULE  C1
 $MODULE C2
 footprint Library:C_0603_1608Metric
 attribut smd
-position 236.286625 297.999999  orientation 180.00
+position 236.286625 297.999999  orientation 0.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -50,7 +50,7 @@ $EndMODULE  C2
 $MODULE C3
 footprint Library:C_0603_1608Metric
 attribut smd
-position 321.286625 297.999999  orientation 180.00
+position 321.286625 297.999999  orientation 0.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -69,7 +69,7 @@ $EndMODULE  C3
 $MODULE C4
 footprint Library:C_0603_1608Metric
 attribut smd
-position 406.275000 298.000000  orientation 180.00
+position 406.275000 298.000000  orientation 0.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -88,7 +88,7 @@ $EndMODULE  C4
 $MODULE C5
 footprint Library:C_0603_1608Metric
 attribut smd
-position 491.236625 297.999999  orientation 180.00
+position 491.236625 297.999999  orientation 0.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -107,7 +107,7 @@ $EndMODULE  C5
 $MODULE C6
 footprint Library:C_0603_1608Metric
 attribut smd
-position 576.236625 297.999999  orientation 180.00
+position 576.236625 297.999999  orientation 0.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -126,7 +126,7 @@ $EndMODULE  C6
 $MODULE C7
 footprint Library:C_0603_1608Metric
 attribut smd
-position 661.236625 297.999999  orientation 180.00
+position 661.236625 297.999999  orientation 0.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -145,7 +145,7 @@ $EndMODULE  C7
 $MODULE C8
 footprint Library:C_0603_1608Metric
 attribut smd
-position 746.236625 297.999999  orientation 180.00
+position 746.236625 297.999999  orientation 0.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -183,17 +183,17 @@ $EndMODULE  C9
 $MODULE C10
 footprint Library:C_0603_1608Metric
 attribut smd
-position 423.019200 304.000000  orientation 90.00
+position 423.019200 304.000000  orientation -90.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
-position -0.775000  0.000000  size  0.900000  0.950000  orientation 0.00
+position -0.775000  0.000000  size  0.900000  0.950000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
 Shape Roundrect Layer front
-position  0.775000  0.000000  size  0.900000  0.950000  orientation 0.00
+position  0.775000  0.000000  size  0.900000  0.950000  orientation 360.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
@@ -221,7 +221,7 @@ $EndMODULE  C11
 $MODULE C12
 footprint Library:C_0603_1608Metric
 attribut smd
-position 419.065000 305.000000  orientation 180.00
+position 419.065000 305.000000  orientation 0.00
 layer front
 $PAD "1"
 Shape Roundrect Layer front
@@ -753,7 +753,7 @@ $EndMODULE  R14
 $MODULE REF**
 footprint Library:MountingHole_2.2mm_M2_ISO14580
 attribut virtual
-position 417.500000 312.000000  orientation 0.00
+position 435.878324 307.500000  orientation 0.00
 layer front
 $PAD ""
 Shape Circle Layer both
@@ -766,7 +766,7 @@ $EndMODULE  REF**
 $MODULE REF**
 footprint Library:MountingHole_2.2mm_M2_ISO14580
 attribut virtual
-position 462.126451 307.500000  orientation 0.00
+position 417.500000 312.000000  orientation 0.00
 layer front
 $PAD ""
 Shape Circle Layer both
@@ -792,7 +792,7 @@ $EndMODULE  REF**
 $MODULE REF**
 footprint Library:MountingHole_2.2mm_M2_ISO14580
 attribut virtual
-position 435.878324 307.500000  orientation 0.00
+position 462.126451 307.500000  orientation 0.00
 layer front
 $PAD ""
 Shape Circle Layer both
