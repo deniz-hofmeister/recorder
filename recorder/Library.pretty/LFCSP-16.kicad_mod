@@ -7,7 +7,7 @@
 	(property "Reference" "U**"
 		(at 0 -3.2346 0)
 		(layer "F.SilkS")
-		(uuid "05ed905b-68f6-4bd3-9f62-46146b0d751e")
+		(uuid "1339c66f-dabf-4fc3-aaf2-9519763c75cb")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "LFCSP-16"
 		(at 0 3.2346 0)
 		(layer "F.Fab")
-		(uuid "c4b1cd41-51f7-4332-85db-b2eea7665531")
+		(uuid "cb8d28de-104f-4ee0-8e93-52b4c36b71fe")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ca6a06c1-1447-45fe-90d7-f851bbfd0026")
+		(uuid "a15537b7-c33f-4ae0-a646-d9135805ec48")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,11 +42,35 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "69d46ff5-2136-425d-a419-4ca6a164558e")
+		(uuid "5cfc75cf-3096-4b46-9609-eb2f447a8e92")
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "LFCSP-16"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "31137592-2f5c-4a59-b9e8-0e363069ff16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MPN" "ADAU7118ACPZRL"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "025267c6-8a71-4872-8d83-cca8de9dc931")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)

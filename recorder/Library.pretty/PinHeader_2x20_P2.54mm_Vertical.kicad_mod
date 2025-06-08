@@ -51,6 +51,30 @@
 			)
 		)
 	)
+	(property "Package" "2x20 Pin Header, 2.54mm Pitch"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "91325c53-78b9-4e37-976a-4839448b41b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MPN" "TSW-110-14-L-D"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8e437a8b-d48a-4fcb-8dce-3f61ad7b7f51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line
 		(start -1.33 -1.33)

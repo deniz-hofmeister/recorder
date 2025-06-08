@@ -52,6 +52,30 @@
 			)
 		)
 	)
+	(property "Package" "VQFN-20"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "92cd518a-e99e-482d-91c9-8eb4a259e50d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MPN" "TPS7A4700RGWT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "739c739c-e7b2-409f-9ca7-0209d8ce8a11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
 		(start -2.5 -2.5)

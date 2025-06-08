@@ -51,6 +51,30 @@
 			)
 		)
 	)
+	(property "Package" "0603 (1608 Metric)"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a04934d8-f367-4110-8551-5297cb06f272")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d908fa45-4041-41fa-9532-e8701de8ab65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
 		(start -0.14058 -0.51)

@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "MPN IM73D122V01XTMA1 0 0 Center Center 0 0  MPN IM73D122V01XTMA1 0 0 Center Center 0 0  a"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -50,6 +50,30 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "LGA-5"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "756e1cdc-9cba-46cb-87a6-c1be3ecfe213")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "IM73D122V01XTMA1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a9454e17-0e5b-46bd-ad60-aacd6b90b18c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
