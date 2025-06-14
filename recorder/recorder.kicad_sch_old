@@ -4,11 +4,6 @@
 	(generator_version "9.0")
 	(uuid "f8461171-9f32-4945-9984-5de8e21a02d2")
 	(paper "A4")
-	(title_block
-		(title "Flycatcher")
-		(date "2025-06-14")
-		(rev "1")
-	)
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
@@ -5006,15 +5001,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C106250"
-			(at 80.01 102.8762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c091da5c-b16f-41b3-ac1d-ba0858d72089")
 		)
@@ -5103,15 +5089,6 @@
 		)
 		(property "Package" "2x20 Pin Header, 2.54mm Pitch"
 			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5224014"
-			(at 215.9 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,15 +5293,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C23345"
-			(at 57.15 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e4df4ed2-c4d5-4c15-b1e9-a04134d7c201")
 		)
@@ -5409,15 +5377,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C23345"
-			(at 143.51 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d63b42dd-ffa0-4475-abb6-5bd76d8cd45b")
 		)
@@ -5497,15 +5456,6 @@
 		)
 		(property "MPN" "RNCE0603BTE10K0"
 			(at 68.58 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 68.58 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,15 +5545,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 63.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5892,15 +5833,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107368"
-			(at 133.35 138.4362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "80cf8943-55f4-4342-b9c2-b34a0bfccc78")
 		)
@@ -6048,15 +5980,6 @@
 		)
 		(property "Package" "0603 (1608 Metric)"
 			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C106250"
-			(at 137.16 72.3835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,15 +6339,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C106250"
-			(at 137.16 81.2862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "59d79d81-45fd-4563-a5ba-25d521f0524c")
 		)
@@ -6719,15 +6633,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28286"
-			(at 102.87 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "13"
 			(uuid "056314a2-0e49-4b22-bec4-40574173f369")
 		)
@@ -6866,15 +6771,6 @@
 		)
 		(property "Package" "0603 (1608 Metric)"
 			(at 73.66 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3039698"
-			(at 76.2 138.4362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7059,15 +6955,6 @@
 		)
 		(property "MPN" "ADAU7118ACPZRL"
 			(at 104.14 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C654437"
-			(at 102.87 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,15 +7218,6 @@
 		)
 		(property "Package" "0603 (1608 Metric)"
 			(at 76.2 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105524"
-			(at 76.1936 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

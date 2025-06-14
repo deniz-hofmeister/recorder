@@ -4,9 +4,6 @@
 	(generator_version "9.0")
 	(uuid "930bac38-011a-4415-a170-8bdaee663772")
 	(paper "A4")
-	(title_block
-		(date "2025-06-14")
-	)
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
@@ -799,15 +796,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5563886"
-			(at 139.7 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d47a4a83-323e-47b3-a146-8c5a8916f519")
 		)
@@ -928,15 +916,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC" "C22775"
-			(at 125.73 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1142,15 +1121,6 @@
 		)
 		(property "Package" "0603 (1608 Metric)"
 			(at 123.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C106250"
-			(at 125.73 86.3662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
